@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai&family=Roboto&display=swap");
+
+.head {
+  height: 95vh;
+  background-color: #f2ceda93;
+}
+nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #150101;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+nav a {
+  transition: all 0.2s;
+}
+nav a:hover {
+  color: rgba(210, 49, 102, 1);
+  font-size: 20px;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.btn-buy {
+  background: #d23166;
+  border-radius: 5px;
+  padding: 10px 35px;
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #fafafa;
+  transition: all 0.2s;
+}
+
+.btn-buy:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, 0px 50px 23px 14px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, 0px 50px 23px 14px rgba(0, 0, 0, 0);
+  background-color: #ff0055;
+}
+
+.small-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+}
+
+.main-text {
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  /* or 69px */
+
+  color: #0f0101;
+
+  opacity: 0.9;
+}
+
+.sub-text {
+font-family: Hind Madurai;
+font-size: 18px;
+line-height: 27px;
+color: #0F0101;
+opacity: 0.6;
+}
+
+/* .ice-cream {
+  position: absolute;
+  right: -90%;
+  top: -50%;
+} */
+
+.header-2 {
+  padding: 100px;
+}
+
+.header-img {
+  display: block;
+}
+
+.promoto-box {
+  border: 1px solid rgba(0, 0, 0, 0.027);
+  height: 10rem;
+  justify-content: center;
+  margin-right: 2rem;
+  padding: 10px 20px;
+  background: #ffffff;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+}
+
+.promoto-box h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+.promoto-box p {
+  font-family: Hind Madurai;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.cream-2 {
+  background: #f8edf0;
+}
+
+.cream-2 h1 {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+}
+.cream-2 p {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150101;
+
+  opacity: 0.6;
+}
+.price-bar h1 {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44.2px;
+}
+
+.link-bar {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+  height: 50px;
+}
+.price-link {
+  transition: all 0.6s;
+}
+
+.price-link:hover {
+  border-bottom: 3px solid #d64374;
+  transition: all 0.2s;
+  transform: translateY(-5px);
+  font-weight: 700;
+}
+
+.card-1 h1 {
+  font-family: Hind Madurai;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.card-1 p {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.user-com h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.user-com p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+}
+
+.quote {
+  color: #f6762c;
+}
+
+.cream-card {
+  background-color: #f8edf0;
+  height: 70vh;
+}
+
+.card-img {
+  border-radius: 30px;
+  margin-top: 7%;
+}
+.card-text h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 44.2px;
+  line-height: 52px;
+}
+
+.card-text p {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #0f0101;
+  opacity: 0.7;
+}
+
+.icons {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #ff616b;
+}
+.card-ul li {
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.sending {
+  height: 40vh;
+}
+.sending h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.sending input {
+  background-color: #fafafa;
+  width: 30%;
+  border-radius: 5px;
+  height: 40px;
+  border: 2px solid #fafafa;
+  transition: all 0.2s;
+  padding: 20px 50px;
+}
+.sending input:hover{
+border: 2px solid black;
+transition: all 0.1s;
+}
+
+
+.sending input::placeholder {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0f0000;
+  opacity: 0.6;
+  margin-left: 2rem;
+}
+.down{
+  background-color: #0A0808;
+  height: 40vh;
+}
+.downer input{
+  padding: 20px 50px;
+  height: 40px;
+  background-color: #0A0808;
+  border: 1px solid rgba(210, 49, 102, 1);
+  border-radius: 5px;
+  width: 60%;
+}
